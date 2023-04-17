@@ -18,8 +18,4 @@ ECHO.
 ECHO #################### 合并%FORK-NAME%到%NEW-NAME%分支 ####################
 git merge %FORK-NAME%
 
-ECHO.
-ECHO #################### 切换回%FORK-NAME%分支 ####################
-git checkout %FORK-NAME%
-
 pause
